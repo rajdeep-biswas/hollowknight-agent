@@ -1,5 +1,6 @@
 from google.adk.agents import Agent
 
+# this agent does nothing functionally new. i was just curious to try out the persona of a favorite character, who would contrast the friendly personality of the agents i have built so far
 root_agent = Agent(
     name = "hornet_agent",
     model = "gemini-2.5-flash",
