@@ -1,6 +1,11 @@
 ## Setup
 
-1. Install Poetry if you haven't already:
+0. Setup your python venv -
+```bash
+conda create -n "myenv" python=3.12 ipython
+```
+
+1. Install Poetry - 
 ```bash
 curl -sSL https://install.python-poetry.org | python3 -
 ```
@@ -20,12 +25,7 @@ tar -xzf google-cloud-cli-darwin-x86_64.tar.gz
 gcloud auth application-default login
 ```
 
-4. Change to python 3.12 and Activate the virtual environment:
-```bash
-poetry env use 3.12
-source $(poetry env info --path)/bin/activate
-```
-5. Run adk
+4. Run adk
 ```
 adk web
 ```
